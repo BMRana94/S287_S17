@@ -1,5 +1,6 @@
 /*
 	Kevin Lin - 40002383
+	Bilal Rana - 40013408
 	SOEN 287 Summer 2017 - Assignment 1
 	Question 4
 */
@@ -7,6 +8,11 @@ body {
 	text-align: center;
 }
 
+div.relative{
+	position: relative;
+	bottom: 50px;
+	left: 50px;
+}
 #first {
 	padding: 5px;
 	border: dotted;
@@ -25,6 +31,7 @@ body {
 	height: 200px;
 }
 
-#red {
-	font-style: bold;
+.red {
+	font-weight: bold;
+	color: red;
 }

@@ -1,0 +1,52 @@
+<DOCTYPE html>
+<html>
+  <style>
+    body{
+      font-family: verdana;
+    }
+    p {
+      font-weight: bold;
+    }
+    input[type = text], select{
+      width: 65%;
+      padding: 5px 20px;
+      margin: 10px 0;
+      border: 5px solid #cdf;
+      border-radius: 100px;
+      box-sizing: border-box
+    }
+    div{
+      border-radius: 5px; 
+      background-color: #f2f2f2;
+      padding: 15px;
+    }
+  </style>
+<head>
+	<title> Question 5 </title>
+</head>
+	<body>
+    <h3> Book Order </h3>
+  <div>
+		<form>	
+      Title: <br>
+			<input type = "text" name = "bookTitle"placeholder="Book Title...">
+      <br>
+			Author: <br>
+			<input type = "text" name = "authorName"placeholder="Author Name..">
+			<br>
+      Genre:<br><br>
+      <input type = "checkbox" name = "genre" value = "mystery"> Mystery <br>
+         <input type = "checkbox" name = "genre" value = "scifi"> Science Fiction <br>
+         <input type = "checkbox" name = "genre" value = "Fiction"> Fiction <br>
+         <input type = "checkbox" name = "genre" value = "nonfic"> Non-Fiction <br>
+         <input type = "checkbox" name = "genre" value = "fantasy"> Fantasy <br>
+         <input type = "checkbox" name = "genre" value = "horror"> Horror <br>
+         <input type = "checkbox" name = "genre" value = "drama"> Drama <br>
+         <input type = "checkbox" name = "genre" value = "comedy"> Comedy <br>
+      <p> Select one of the following: </p>
+      <input type= "radio" name = "choice" value = "pickup" checked> Pick-up <br>
+      <input type = "radio" name = "choice" value = "delivery" checked> Delivery <br>
+    </form>
+    </div>
+	</body>
+</html>
